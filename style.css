@@ -1,0 +1,174 @@
+/* Trocar paleta de cores, trocar os seletores dos elementos por classe, corrigir posicionamento dos elementos 
+azul: #01dafeff roxo-claro: #d0a9ecff roxo-médio: #59499eff roxo-excuro: #341e67ff branco: #fefefeff
+*/
+
+* {
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    color:#01dafeff ;
+    font-size: 42px;
+}
+
+h2 {
+    color: #59499eff;
+    font-size: 39px;
+}
+
+h3 {
+    color: #01dafeff;
+    font-size: 30px;
+}
+
+section{
+    width: 100%;
+    height: 100%;
+}
+
+main{
+    position: relative;
+}
+.header {
+    background-color: #341e67ff;
+    width: 100%;
+    position: fixed;
+}
+
+.header__menu-nav{
+    position: absolute;
+    top:50px;
+    right: 50px;
+}
+
+.header__menu-link:hover{
+    color: #01dafeff;
+}
+
+.header__menu-item{
+    display: inline;
+    margin-left: 20px;
+}
+
+.container-video__movie{
+    margin-top: 100px;
+}
+
+.container-video__onboarding{
+    text-align: center;
+    margin: 50px;
+}
+
+.onboarding__subtitle{
+    margin-bottom: 32px ;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+nav ul li a {
+    color: white;
+    font-weight: 600;
+}
+
+.button {
+    color: white;
+    background-color: #59499eff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color:#341e67ff ;
+}
+
+.container-adopting__article{
+    max-width: 980px;
+    margin: 0 auto;
+
+}
+
+.container-adopting{
+    background: linear-gradient(#341e67ff, #d0a9ecff );
+    text-align: center;
+    padding: 100px 0;
+}
+
+.container-adopting__item{
+    background-color: #01dafeff;
+    float: left ;
+    width: 30%;
+    margin: 0 10px;
+    padding: 20px;
+    transition: 0.5s;
+}
+
+.container-adopting__item:hover{
+    padding: 60px 0;
+}
+
+.container-adopting__title{
+    color: #fefefeff;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+article > div > p {
+    color: white;
+}
+
+.container-contribute{
+    text-align: center;
+    padding: 100px 0;
+}
+
+.contribute__text{
+    max-width: 300px;
+}
+
+.contribute__info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-signup{
+    text-align: center;
+    padding: 100px 0;
+}
+
+input {
+    padding: 5px 10px;
+}
+
+.footer {
+    background-color: #01dafeff;
+    padding: 25px 0;
+}
+
+.footer__info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer > p {
+    text-align: center;
+    margin-bottom: 0;
+}
